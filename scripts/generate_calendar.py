@@ -42,22 +42,34 @@ def event_lines(olympiad: dict, event: dict) -> list[str]:
     start = date.fromisoformat(start_value)
     end = date.fromisoformat(end_value)
     end_exclusive = end + timedelta(days=1)
-    summary = f"{olympiad['name']} — {event['title']}"
-    description = f"Уровень: {olympiad['level']}; классы: {olympiad['classes']}; Сайт: {olympiad['url']}"
+    summary = event.get("summary")
+    if summary is None:
+        summary = f"{olympiad['name']} | {event['title']}"
+    description_lines = []
+    if olympiad.get("level"):
+        description_lines.append(f"Уровень: {olympiad['level']}")
+    if olympiad.get("classes"):
+        description_lines.append(f"Классы: {olympiad['classes']}")
+    if olympiad.get("url"):
+        description_lines.append(f"Сайт: {olympiad['url']}")
     if event.get("note"):
-        description += f"; {event['note']}"
-    return [
+        description_lines.append(event["note"])
+    description_lines.extend(event.get("description", []))
+    description = "\n".join(description_lines)
+    lines = [
         "BEGIN:VEVENT",
         f"UID:{uid(olympiad['id'], event)}",
         f"DTSTAMP:20260101T000000Z",
         f"DTSTART;VALUE=DATE:{start.strftime('%Y%m%d')}",
         f"DTEND;VALUE=DATE:{end_exclusive.strftime('%Y%m%d')}",
         f"SUMMARY:{escape(summary)}",
-        f"DESCRIPTION:{escape(description)}",
-        f"URL:{escape(olympiad['url'])}",
-        f"CATEGORIES:Физика\\, олимпиада",
-        "END:VEVENT",
     ]
+    if description_lines:
+        lines.append(f"DESCRIPTION:{escape(description)}")
+    if olympiad.get("url"):
+        lines.append(f"URL:{escape(olympiad['url'])}")
+    lines.extend(["CATEGORIES:Физика\\, олимпиада", "END:VEVENT"])
+    return lines
 
 
 def generate() -> str:
