@@ -1,0 +1,36 @@
+name: Обновление календаря
+
+on:
+  push:
+    paths:
+      - "data/physics_olympiads.json"
+      - "scripts/generate_calendar.py"
+      - "tests/test_calendar.py"
+      - ".github/workflows/calendar.yml"
+  schedule:
+    - cron: "17 3 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Проверка
+        run: python -m unittest discover -s tests -v
+      - name: Генерация
+        run: python scripts/generate_calendar.py
+      - name: Публикация изменившегося feed
+        run: |
+          if git diff --quiet -- docs/olympiads.ics; then exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/olympiads.ics
+          git commit -m "Обновить календарь олимпиад"
+          git push

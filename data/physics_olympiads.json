@@ -1,0 +1,66 @@
+{
+  "calendar": {
+    "name": "Физические олимпиады школьников 2026–2027",
+    "timezone": "Europe/Moscow",
+    "school_year": "2026-2027"
+  },
+  "olympiads": [
+    {"id": "engineer", "name": "Инженерная олимпиада школьников", "level": "I", "classes": "9-11", "url": "https://admission.mephi.ru/olympiads/engineer", "events": []},
+    {"id": "moscow", "name": "Московская олимпиада школьников", "level": "I", "classes": "8-11", "url": "https://mosphys.olimpiada.ru/", "events": []},
+    {"id": "lomonosov", "name": "Олимпиада школьников «Ломоносов»", "level": "I", "classes": "7-11", "url": "https://olymp.msu.ru/", "events": []},
+    {"id": "pvg", "name": "Олимпиада школьников «Покори Воробьевы горы!»", "level": "I", "classes": "5-11", "url": "https://www.pvg.mk.ru/", "events": []},
+    {
+      "id": "phystech", "name": "Олимпиада школьников «Физтех»", "level": "I", "classes": "9-11",
+      "url": "https://olymp-online.mipt.ru/",
+      "events": [
+        {"date": "2026-09-07", "title": "Начало регистрации"},
+        {"date": "2026-10-04", "title": "I тур"},
+        {"date": "2026-10-25", "title": "I тур"},
+        {"date": "2026-11-08", "title": "I тур", "note": "Дата отмечена в исходных данных знаком *"}
+      ]
+    },
+    {"id": "rosatom", "name": "Отраслевая физико-математическая олимпиада школьников «Росатом»", "level": "I", "classes": "7-11", "url": "https://olymp.mephi.ru/rosatom/about", "events": []},
+    {"id": "spb-astronomy", "name": "Санкт-Петербургская Астрономическая олимпиада", "level": "I", "classes": "5-11", "url": "https://school.astro.spbu.ru/?q=olymp", "events": []},
+    {"id": "turlom", "name": "Турнир имени М.В. Ломоносова", "level": "I", "classes": "6-11", "url": "https://turlom.olimpiada.ru/", "events": []},
+    {
+      "id": "vsesibir", "name": "Всесибирская открытая олимпиада школьников", "level": "II", "classes": "7-11",
+      "url": "https://sesc.nsu.ru/olymp-vsesib/sections/physics/",
+      "events": [
+        {"start": "2026-10-26", "end": "2026-11-14", "title": "Регистрация"},
+        {"date": "2026-11-15", "title": "I тур"},
+        {"start": "2027-02-01", "end": "2027-03-13", "title": "Финальная регистрация"},
+        {"date": "2027-03-14", "title": "II тур"}
+      ]
+    },
+    {"id": "internet", "name": "Интернет-олимпиада школьников по физике", "level": "II", "classes": "7-11", "url": "https://distolymp2.spbu.ru/", "events": []},
+    {"id": "kfu", "name": "Межрегиональные предметные олимпиады федерального государственного автономного образовательного учреждения высшего образования «Казанский (Приволжский) федеральный университет»", "level": "II", "classes": "7-11", "url": "https://malun.kpfu.ru/mpo", "events": []},
+    {"id": "umov", "name": "Научно-практическая олимпиада школьников имени Н.А. Умова", "level": "II", "classes": "7-11", "url": "https://umov.phys.msu.ru/", "events": []},
+    {"id": "kurchatov", "name": "Олимпиада Курчатов", "level": "II", "classes": "6-11", "url": "https://www.olimpiadakurchatov.ru/", "events": []},
+    {"id": "step-future", "name": "Олимпиада школьников «Шаг в будущее»", "level": "II", "classes": "8-11", "url": "https://olymp.bmstu.ru/", "events": []},
+    {"id": "spbu", "name": "Олимпиада школьников Санкт-Петербургского государственного университета", "level": "II", "classes": "8-11", "url": "https://sch-olymp.spbu.ru/", "events": []},
+    {"id": "spb", "name": "Санкт-Петербургская олимпиада школьников", "level": "II", "classes": "8-11", "url": "https://www.physolymp.spb.ru", "events": []},
+    {"id": "your-way", "name": "Твой путь в настоящую науку", "level": "II", "classes": "8-11", "url": "https://olymphysics.nsu.ru/", "events": []},
+    {
+      "id": "formula-unity", "name": "«Формула единства»/«Третье тысячелетие»", "level": "III", "classes": "8-11",
+      "url": "https://www.formulo.org/ru/olymp/",
+      "events": [{"start": "2026-11-16", "end": "2026-11-30", "title": "I тур"}]
+    },
+    {"id": "bibn", "name": "Межрегиональная олимпиада школьников «Будущие исследователи - будущее науки»", "level": "III", "classes": "7-11", "url": "https://bibn.unn.ru/", "events": []},
+    {"id": "departmental", "name": "Межрегиональная олимпиада школьников на базе ведомственных образовательных организаций", "level": "III", "classes": "8-11", "url": "https://v-olymp.ru/", "events": []},
+    {"id": "union", "name": "Объединенная межвузовская олимпиада школьников", "level": "III", "classes": "9-11", "url": "https://физикадлявсех.рф/union-olymp", "events": []},
+    {"id": "energy", "name": "Олимпиада школьников «Надежда энергетики»", "level": "III", "classes": "7-11", "url": "https://www.ehope.ru/", "events": []},
+    {
+      "id": "future-siberia", "name": "Открытая межвузовская олимпиада школьников «Будущее Сибири»", "level": "III", "classes": "8-11",
+      "url": "https://olymp-sibir.nstu.ru/",
+      "events": [{"start": "2026-10-01", "end": "2026-12-02", "title": "Регистрация"}, {"start": "2026-12-01", "end": "2026-12-28", "title": "I тур"}]
+    },
+    {"id": "open", "name": "Открытая олимпиада школьников", "level": "III", "classes": "7-11", "url": "https://olymp.itmo.ru/", "events": []},
+    {"id": "ormo", "name": "Открытая региональная межвузовская олимпиада школьников (ОРМО) с международным участием", "level": "III", "classes": "8-11", "url": "https://info.abiturient.tsu.ru/ru/content/ormo", "events": []},
+    {"id": "gazprom", "name": "Отраслевая олимпиада школьников «Газпром»", "level": "III", "classes": "8-11", "url": "https://olymp.bmstu.ru/ru/gazprom", "events": []},
+    {
+      "id": "belchonok", "name": "Университетская олимпиада школьников «Бельчонок»", "level": "III", "classes": "7-11",
+      "url": "https://dovuz.sfu.ru/abiturientu-sfu/olimpiady/belchonok/",
+      "events": [{"start": "2026-10-01", "end": "2027-01-13", "title": "I тур"}, {"date": "2027-02-07", "title": "II тур"}]
+    }
+  ]
+}

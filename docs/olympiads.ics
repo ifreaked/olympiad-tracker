@@ -1,0 +1,166 @@
+BEGIN:VCALENDAR
+PRODID:-//ifreaked//Physics Olympiads//RU
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Физические олимпиады школьников 2
+ 026–2027
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+UID:61d59310df721778fdb4ea9d@olympiad-tracker
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260908
+SUMMARY:Олимпиада школьников «Физтех» — Нач
+ ало регистрации
+DESCRIPTION:Уровень: I\; классы: 9-11\; Сайт: https://olym
+ p-online.mipt.ru/
+URL:https://olymp-online.mipt.ru/
+CATEGORIES:Физика\, олимпиада
+END:VEVENT
+BEGIN:VEVENT
+UID:ac7f8c3914d6a8add517ad52@olympiad-tracker
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:Олимпиада школьников «Физтех» — I ту
+ р
+DESCRIPTION:Уровень: I\; классы: 9-11\; Сайт: https://olym
+ p-online.mipt.ru/
+URL:https://olymp-online.mipt.ru/
+CATEGORIES:Физика\, олимпиада
+END:VEVENT
+BEGIN:VEVENT
+UID:4ec34fd72998ecb40b4a7da2@olympiad-tracker
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:Олимпиада школьников «Физтех» — I ту
+ р
+DESCRIPTION:Уровень: I\; классы: 9-11\; Сайт: https://olym
+ p-online.mipt.ru/
+URL:https://olymp-online.mipt.ru/
+CATEGORIES:Физика\, олимпиада
+END:VEVENT
+BEGIN:VEVENT
+UID:caa05dc6354d9775437f8e22@olympiad-tracker
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:Олимпиада школьников «Физтех» — I ту
+ р
+DESCRIPTION:Уровень: I\; классы: 9-11\; Сайт: https://olym
+ p-online.mipt.ru/\; Дата отмечена в исходных данн
+ ых знаком *
+URL:https://olymp-online.mipt.ru/
+CATEGORIES:Физика\, олимпиада
+END:VEVENT
+BEGIN:VEVENT
+UID:e8269632ed4ea075d98be248@olympiad-tracker
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261115
+SUMMARY:Всесибирская открытая олимпиада шко
+ льников — Регистрация
+DESCRIPTION:Уровень: II\; классы: 7-11\; Сайт: https://ses
+ c.nsu.ru/olymp-vsesib/sections/physics/
+URL:https://sesc.nsu.ru/olymp-vsesib/sections/physics/
+CATEGORIES:Физика\, олимпиада
+END:VEVENT
+BEGIN:VEVENT
+UID:8cc3bfab3e1e627b3891b199@olympiad-tracker
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Всесибирская открытая олимпиада шко
+ льников — I тур
+DESCRIPTION:Уровень: II\; классы: 7-11\; Сайт: https://ses
+ c.nsu.ru/olymp-vsesib/sections/physics/
+URL:https://sesc.nsu.ru/olymp-vsesib/sections/physics/
+CATEGORIES:Физика\, олимпиада
+END:VEVENT
+BEGIN:VEVENT
+UID:75b36ca5f4e8e8ebe85cc23d@olympiad-tracker
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270314
+SUMMARY:Всесибирская открытая олимпиада шко
+ льников — Финальная регистрация
+DESCRIPTION:Уровень: II\; классы: 7-11\; Сайт: https://ses
+ c.nsu.ru/olymp-vsesib/sections/physics/
+URL:https://sesc.nsu.ru/olymp-vsesib/sections/physics/
+CATEGORIES:Физика\, олимпиада
+END:VEVENT
+BEGIN:VEVENT
+UID:cba508352f89dccd1d72e672@olympiad-tracker
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270314
+DTEND;VALUE=DATE:20270315
+SUMMARY:Всесибирская открытая олимпиада шко
+ льников — II тур
+DESCRIPTION:Уровень: II\; классы: 7-11\; Сайт: https://ses
+ c.nsu.ru/olymp-vsesib/sections/physics/
+URL:https://sesc.nsu.ru/olymp-vsesib/sections/physics/
+CATEGORIES:Физика\, олимпиада
+END:VEVENT
+BEGIN:VEVENT
+UID:a4ed1607a64469e38bfcd9e1@olympiad-tracker
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261201
+SUMMARY:«Формула единства»/«Третье тысячеле
+ тие» — I тур
+DESCRIPTION:Уровень: III\; классы: 8-11\; Сайт: https://ww
+ w.formulo.org/ru/olymp/
+URL:https://www.formulo.org/ru/olymp/
+CATEGORIES:Физика\, олимпиада
+END:VEVENT
+BEGIN:VEVENT
+UID:5df888d354745790571d3282@olympiad-tracker
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261203
+SUMMARY:Открытая межвузовская олимпиада шко
+ льников «Будущее Сибири» — Регистрация
+DESCRIPTION:Уровень: III\; классы: 8-11\; Сайт: https://ol
+ ymp-sibir.nstu.ru/
+URL:https://olymp-sibir.nstu.ru/
+CATEGORIES:Физика\, олимпиада
+END:VEVENT
+BEGIN:VEVENT
+UID:ff02551cd90cd1d6bcd68649@olympiad-tracker
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261229
+SUMMARY:Открытая межвузовская олимпиада шко
+ льников «Будущее Сибири» — I тур
+DESCRIPTION:Уровень: III\; классы: 8-11\; Сайт: https://ol
+ ymp-sibir.nstu.ru/
+URL:https://olymp-sibir.nstu.ru/
+CATEGORIES:Физика\, олимпиада
+END:VEVENT
+BEGIN:VEVENT
+UID:909a646aa46bff9e865a059d@olympiad-tracker
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20270114
+SUMMARY:Университетская олимпиада школьник
+ ов «Бельчонок» — I тур
+DESCRIPTION:Уровень: III\; классы: 7-11\; Сайт: https://do
+ vuz.sfu.ru/abiturientu-sfu/olimpiady/belchonok/
+URL:https://dovuz.sfu.ru/abiturientu-sfu/olimpiady/belchonok/
+CATEGORIES:Физика\, олимпиада
+END:VEVENT
+BEGIN:VEVENT
+UID:c0727c4ab9ea205b1fd34431@olympiad-tracker
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+SUMMARY:Университетская олимпиада школьник
+ ов «Бельчонок» — II тур
+DESCRIPTION:Уровень: III\; классы: 7-11\; Сайт: https://do
+ vuz.sfu.ru/abiturientu-sfu/olimpiady/belchonok/
+URL:https://dovuz.sfu.ru/abiturientu-sfu/olimpiady/belchonok/
+CATEGORIES:Физика\, олимпиада
+END:VEVENT
+END:VCALENDAR
